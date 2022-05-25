@@ -1,0 +1,16 @@
+spring.profiles: dev
+taeng:
+  profile: bigas dev taeng
+  comment: Hello! dev taeng bigas
+
+---
+spring.profiles: test
+taeng:
+  profile: bigas test taeng
+  comment: Hello! test taeng bigas
+
+---
+spring.profiles: real
+taeng:
+  profile: bigas real taeng
+  comment: Hello! real taeng bigas
